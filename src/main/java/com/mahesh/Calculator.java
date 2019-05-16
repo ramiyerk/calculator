@@ -1,5 +1,7 @@
 package com.mahesh;
 
+}
+
 public class Calculator {
 	 int output;
 
@@ -18,5 +20,5 @@ public class Calculator {
 		public int divideFunction(int num1,int num2) {
 			return output=num1 / num2;
 			
-		}
+		//}
 }
