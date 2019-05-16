@@ -13,20 +13,23 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class CalculatorServlet
  */
-public class CalculatorServlet extends HttpServlet {
+public class CalculatorServlet extends HttpServlet 
+{
 	private static final long serialVersionUID = 1L;
 
     /**
      * Default constructor. 
      */
-    public CalculatorServlet() {
+    public CalculatorServlet() 
+    {
         // TODO Auto-generated constructor stub
     }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+    {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
@@ -34,13 +37,15 @@ public class CalculatorServlet extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+    {
 		Calculator cal=new Calculator();
 		int num1=Integer.parseInt(request.getParameter("n1"));
 		int num2=Integer.parseInt(request.getParameter("n2"));
 		int result;
 		int op =Integer.parseInt(request.getParameter("op"));
-		switch(op) {
+		switch(op) 
+		{
 		case 1:
 			result=cal.addFunction(num1, num2);
 			break;
