@@ -7,23 +7,21 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-
-
+									
 /**
  * Servlet implementation class CalculatorServlet
  */
 public class CalculatorServlet extends HttpServlet 
 {
 	private static final long serialVersionUID = 1L;
-
+								
     /**
      * Default constructor. 
      */
     public CalculatorServlet() 
     {
         // TODO Auto-generated constructor stub
-    }
+    								}
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
@@ -32,7 +30,7 @@ public class CalculatorServlet extends HttpServlet
     {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
-	}
+								}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
@@ -45,7 +43,7 @@ public class CalculatorServlet extends HttpServlet
 		int result;
 		int op =Integer.parseInt(request.getParameter("op"));
 		switch(op) 
-		{
+								{
 		case 1:
 			result=cal.addFunction(num1, num2);
 			break;
