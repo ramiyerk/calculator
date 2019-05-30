@@ -5,20 +5,11 @@ ehfeihb
 text by sandeep soni from bhopalram gopal edited this file
 
 
-ehfeihb
-
-text by sandeep soni from bhopalram gopal edited this file
-
-
-ehfeihb
-
-text by sandeep soni from bhopal
-
-ram gopal edited this file
-text by sandeep soni from bhopalram gopal edited this file
-
-
-ehfeihb
+        "metric": "new_security_rating",
+        "operator": "GREATER_THAN",
+        "value": "1",
+        "status": "OK",
+        "errorThreshold": "1"
 
 text by sandeep soni from bhopal
 
