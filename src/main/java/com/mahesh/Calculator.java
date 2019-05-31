@@ -3,10 +3,10 @@ package com.mahesh;
 public class Calculator 
 {
 	 int output;
-	 int input1;
-	 int input2;
-	 int input8;
-	 int input9;
+	 int input11;
+	 int input12;
+	 int input18;
+	 int input19;
 	
 		public int addFunction(int num1,int num2) 
 		{
