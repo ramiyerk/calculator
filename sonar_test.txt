@@ -10,6 +10,12 @@ text by sandeep soni from bhopalram gopal edited this file
         "value": "1",
         "status": "OK",
         "errorThreshold": "1"
+        
+        "metric": "new_security_rating",
+        "operator": "GREATER_THAN",
+        "value": "1",
+        "status": "OK",
+        "errorThreshold": "1"
 
 text by sandeep soni from bhopal
 
