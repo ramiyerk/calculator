@@ -1,11 +1,6 @@
 test file to analyze source code using sonarcloud
 
-ehfeihb
-
-text by sandeep soni from bhopalram gopal edited this file
-
-
-        "metric": "new_security_rating",
+"metric": "new_security_rating",
         "operator": "GREATER_THAN",
         "value": "1",
         "status": "OK",
