@@ -1,6 +1,6 @@
 test file to analyze source code using sonarcloud
 
-"metric": "new_security_rating",
+        "metric": "new_security_rating",
         "operator": "GREATER_THAN",
         "value": "1",
         "status": "OK",
@@ -11,3 +11,9 @@ test file to analyze source code using sonarcloud
         "value": "2",
         "status": "OK",
         "errorThreshold": "2"
+
+        "metric": "new_security_rating",
+        "operator": "GREATER_THAN",
+        "value": "3",
+        "status": "OK",
+        "errorThreshold": "3"
