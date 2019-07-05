@@ -1,9 +1,4 @@
-        "metric": "new_security_rating",
-        "operator": "GREATER_THAN",
-        "value": "3",
-        "status": "OK",
-        "errorThreshold": "3"
-        
+     
         "metric": "new_security_rating",
         "operator": "GREATER_THAN",
         "value": "4",
