@@ -10,16 +10,3 @@
         "value": "5",
         "status": "OK",
         "errorThreshold": "5"
-        
-        "metric": "new_security_rating",
-        "operator": "GREATER_THAN",
-        "value": "6",
-        "status": "OK",
-        "errorThreshold": "6"
-
-New line added to check PR job
-another lineNew line added to check PR job
-another lineNew line added to check PR job
-another lineNew line added to check PR job
-another lineNew line added to check PR job
-another line
