@@ -15,3 +15,9 @@
         "value": "5",
         "status": "OK",
         "errorThreshold": "5"
+        
+        "metric": "new_security_rating",
+        "operator": "GREATER_THAN",
+        "value": "6",
+        "status": "OK",
+        "errorThreshold": "6"
