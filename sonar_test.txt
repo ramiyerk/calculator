@@ -16,5 +16,7 @@
         test sonar github pull request2
         test sonar github pull request3
         test sonar github pull request4
+        test sonar github pull request5
+        test sonar github pull request6
         
         
